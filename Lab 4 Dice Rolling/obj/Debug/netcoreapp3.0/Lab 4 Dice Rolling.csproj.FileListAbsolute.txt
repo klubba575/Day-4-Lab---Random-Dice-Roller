@@ -1,0 +1,11 @@
+C:\Users\Andy Wilder\Desktop\Grand Circus Detroit\Lab 4 Dice Rolling\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.0\Lab 4 Dice Rolling.exe
+C:\Users\Andy Wilder\Desktop\Grand Circus Detroit\Lab 4 Dice Rolling\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.0\Lab 4 Dice Rolling.deps.json
+C:\Users\Andy Wilder\Desktop\Grand Circus Detroit\Lab 4 Dice Rolling\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.0\Lab 4 Dice Rolling.runtimeconfig.json
+C:\Users\Andy Wilder\Desktop\Grand Circus Detroit\Lab 4 Dice Rolling\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.0\Lab 4 Dice Rolling.runtimeconfig.dev.json
+C:\Users\Andy Wilder\Desktop\Grand Circus Detroit\Lab 4 Dice Rolling\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.0\Lab 4 Dice Rolling.dll
+C:\Users\Andy Wilder\Desktop\Grand Circus Detroit\Lab 4 Dice Rolling\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.0\Lab 4 Dice Rolling.pdb
+C:\Users\Andy Wilder\Desktop\Grand Circus Detroit\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.0\Lab 4 Dice Rolling.csprojAssemblyReference.cache
+C:\Users\Andy Wilder\Desktop\Grand Circus Detroit\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.0\Lab 4 Dice Rolling.AssemblyInfoInputs.cache
+C:\Users\Andy Wilder\Desktop\Grand Circus Detroit\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.0\Lab 4 Dice Rolling.AssemblyInfo.cs
+C:\Users\Andy Wilder\Desktop\Grand Circus Detroit\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.0\Lab 4 Dice Rolling.dll
+C:\Users\Andy Wilder\Desktop\Grand Circus Detroit\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.0\Lab 4 Dice Rolling.pdb

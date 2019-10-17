@@ -6,34 +6,77 @@ namespace Lab_4_Dice_Rolling
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Welcome to the Grand Circus Casino! Roll the dice? (y/n)");
-			string diceAnswer = Console.ReadLine();
-			if (diceAnswer == "y")
+			bool correctResponse = true;
+			while (correctResponse)
 			{
-				Console.WriteLine("How many sides would you like on your dice?");
-				int numberSides = int.Parse(Console.ReadLine());
-				int max = (numberSides + 1);
 
-				Random random1 = new Random();
+				// correctResponse = GamblingTime();
+				GamblingTime();
+				correctResponse = false;
+			}
+			
 				bool keepGoing = true;
-				while (keepGoing) 
+				while (keepGoing)
 				{
-					Console.WriteLine("Roll :");
-					Console.WriteLine($" " + random1.Next(1, max));
-					Console.WriteLine($" " + random1.Next(1, max));
-					//what up tho?
-
-					//Do you want to continue?
+					GetRandomNumber();
 					keepGoing = GetContinue();
 				}
 				Console.WriteLine("Ok, bye.");
-			} 
-			else 
-			{
-				Console.WriteLine("That is all the fun for today.");
-			} 
 		}
-		
+		public static void GamblingTime()
+		{
+			//input from the user about whether or not they want to play dice
+			Console.WriteLine("Welcome to the Grand Circus Casino! Roll the dice? (y/n)");
+
+			//processing - if y, return true, if n, return false
+			//if neither, call GamblingTime recursively
+
+			string diceAnswer = Console.ReadLine();
+			if (diceAnswer == "y")
+			{
+				GetRandomNumber();
+			}
+			else if (diceAnswer == "n")
+			{
+				Console.WriteLine("Lady Luck will be missing you!");
+			}
+			else
+			{
+				Console.WriteLine("How many drinks have you had tonight?");
+			}
+
+		}
+		public static void GetRandomNumber()
+		{
+			Console.WriteLine("How many sides would you like on your dice?");
+			int numberSides = int.Parse(Console.ReadLine());
+			int max = (numberSides + 1);
+
+			Random random1 = new Random();
+			int firstDice = random1.Next(1, max);
+			int secondDice = random1.Next(1, max);
+			int sum = (firstDice + secondDice);
+
+			if (sum == 12)
+			{
+				Console.WriteLine($"Roll: {firstDice} {secondDice} Midnight Boxcar!");
+			}
+			
+			else if ((sum == 7) || (sum == 11))
+			{
+				Console.WriteLine($"Roll: {firstDice} {secondDice} HEY!!! Craps!");
+			} 
+   
+			else if (sum == 2)
+			{
+				Console.WriteLine($"Roll: {firstDice} {secondDice} Snake Eyes!");
+			}
+			else
+			{
+				Console.WriteLine($"Roll: {firstDice} {secondDice} ");
+			}
+			
+		}
 		public static bool GetContinue()
 		{
 			//input from the user on whether or not they want to continue (y/n)
@@ -54,6 +97,7 @@ namespace Lab_4_Dice_Rolling
 					return GetContinue();
 			}
 		}
+		
 	}
 }
 
